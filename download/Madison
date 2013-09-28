@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <link rel="stylesheet" type="text/css" href="http://vs1.pbworks.com/shared/statics/packed-m-prod-v12427378.css" />
+
+  
+		<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="http://vs1.pbworks.com/shared/statics/ie6-m-prod-v85351277.css" /><![endif]-->
+  <style>  body, body.wikipage, body.has-ws-nav.wikipage, body #ws-nav ul.nav-tabs #ws-nav-wiki.active { background-color:#F5F5F5 ; }  #wikipage-inner  p,body.wikistyle p, #wikipage-inner  div, #wikipage-inner li { color:#444444 ; }  .wikistyle h4, .wikistyle h3, .wikistyle h2, .wikistyle h1 { color:#444444 ; }  ul#main-tools li a,ul#secondary-tools li a, div#top-content a, #ws-nav ul.nav-tabs #ws-nav-wiki.active a { color:#FFFFFF ; }  ul#main-tools, input#input-search, body.login table.inner, body.login #standalone-login table.inner, body.login table.inner td.table-col-2, div.workspace-panel-outer { border-color:#DFDFDF ; }  div#page-toolbar, body.login table.inner, #workspace-header, body.has-ws-nav #page-footer, body.login.has-ws-nav #page-footer, body.has-ws-nav.login, div#page-footer, div#page-footer .footer { background-color:#DFDFDF ; }  h1.pagetitle { color:#717171 ; }  #wikipage-inner a, div#page-side-toolbar ul a, div.page-history a { color:#0C7094 ; }  td#page-col-2, div#page-bottom-toolbar { background-color:#FFFFFF ; }  div#page-footer .content div { color:#444 ; }  div#page-footer div.content a, #print_link { color:#466F88 ; }  body.has-ws-nav #page-footer { border-color:#466F88 ; }  .wikicontext-module p, .wikicontext-module li { color:#444444 ; }  .wikicontext-module .header { border-color:#F5F5F5 ; }  .wikicontext-module .header { background-color:#F5F5F5 ; }  .wikicontext-module .header { color:#444 ; }  #side-content * a { color:#16476F ; }  div.comments-header { background-color:#f4f4f4 ; }  div.comments-header { color:#000000 ; }  #comments a { color:#114488 ; }  #ws-nav, #workspace-header { background-color:#F5F5F5 ; }  #ws-nav ul.nav-tabs li { background-color:#F5F5F5 ; }  #ws-nav ul.nav-tabs li a, #page-toolbar-inner div a { color:#7D7D7D ; }  div#view-tab.active { background-image: url(/theme_image.php?seg=l&colortime=1356666446) } div#page-toolbar-inner { background-image: url(/theme_image.php?seg=m&colortime=1356666446) } div#page-toolbar { background-image: url(/theme_image.php?seg=n&colortime=1356666446) } td#page-col-1 { background-image: url(/theme_image.php?seg=i&colortime=1356666446) } td#page-col-3 { background-image: url(/theme_image.php?seg=j&colortime=1356666446) } div#page-side-toolbar div.header { background-image: url(/theme_image.php?seg=c&colortime=1356666446) } div#page-side-toolbar { background-image: url(/theme_image.php?seg=b&colortime=1356666446) } div#page-side-toolbar ul { background-image: url(/theme_image.php?seg=a&colortime=1356666446) } div#page-footer .header .lt { background-image: url(/theme_image.php?seg=f&colortime=1356666446) } div#page-footer .header .rt { background-image: url(/theme_image.php?seg=h&colortime=1356666446) } div#page-footer .header { background-image: url(/theme_image.php?seg=g&colortime=1356666446) } div#page-footer .footer .lt { background-image: url(/theme_image.php?seg=e&colortime=1356666446) } div#page-footer .footer .rt { background-image: url(/theme_image.php?seg=d&colortime=1356666446) } div#edit-tab.active { background-image: url(/theme_image.php?seg=k&colortime=1356666446) } div#view-tab { background-image: url(/theme_image.php?seg=o&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs { background-image: url(/theme_image.php?seg=v&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs.active-tab-wiki { background-image: url(/theme_image.php?seg=p&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs.first-tab-active-not-wiki { background-image: url(/theme_image.php?seg=r&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li { background-image: url(/theme_image.php?seg=w&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.active { background-image: url(/theme_image.php?seg=t&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.next-active { background-image: url(/theme_image.php?seg=s&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.last { background-image: url(/theme_image.php?seg=x&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.last-active { background-image: url(/theme_image.php?seg=u&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs #ws-nav-wiki.active { background-image: url(/theme_image.php?seg=q&colortime=1356666446) } div#page-bottom-toolbar { background:none; } body.wikistyle { background-color:#FFFFFF !important } #comments .comments-header .corner4px { visibility: hidden; } #comments .comments-header { border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; } </style>    
+        <script>
+  PBinfo = {"CurrentPage":{"isDev":false,"sessCookie":"ds3","requesttime":"1380406371","page":"Madison","editor_v3":true,"security":"default"},"CurrentWiki":{"front_page":"Home","isPublic":true,"is_archived":false,"debug":false,"usercount":"875","filecount":6,"pagecount":130,"foldercount":"2","name":"sciencehackday","title":"Science Hack Day","cat":"ind","readonly":null,"comments_disabled":"","comments_newest_first":"","network_groups":[],"publicedit":true,"premium":true},"CheckPermissions":{"uid":false,"personal_wiki":false},"GetFeatures":{"fliqz_upsell":true,"classroom_accounts":true,"lockpages":true,"page_security":true,"allow_public":true,"additive_custom_security":true,"folder_security":true,"file_import":true,"workspace_user_groups":true,"fliqz":true},"GetTimes":{"_valid_as_of":"1380406371","commenttime":1380392882,"filetime":1373781560,"foldertime":1326859703,"grouptime":0,"page_list_time":1380390375,"pagetime":1380406263,"permtime":1380392751,"tagtime":1319734492,"_args":{"op":"GetTimes"}},"GetUserPrefs":{"sidebar":{"recentactivity":[]},"sidebar_collapsed":"","show_rev_comment":"context-error"},"BuildTime":1380225063,"CurrentObject":64787953,"GetPage":{"_perm_cache_times":{"pagetime":1380406263,"foldertime":1326859703,"permtime":1380392751},"_valid_as_of":"1380406371","author":{"perm":"write","name":"Chris Meyer","first_name":"Chris","last_name":"Meyer","email":"team@sector67.org","image":"http:\/\/sciencehackday.pbworks.com\/uimg\/bread.png","verified":"1364129455","email_verified":"1364129455","lastview":1364129700,"lastviewtext":"6 months","uid":"6cba8e5d174338ee3f85fbb70d310c543a78cb4f"},"current_revision":1364129748,"hasPlugins":false,"has_custom_perms":false,"hidden":false,"locked":false,"mtime":1364129748,"name":"Madison","oid":64787953,"perms":{"r":true},"revcount":2,"revurl":"http:\/\/sciencehackday.pbworks.com\/w\/page\/64787953\/Madison","size":440,"wikistyle":false,"_args":{"oid":64787953,"revision":false,"op":"GetPage"}}};
+</script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/libraries-v61087449.js"></script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/packed-v72633922.js"></script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/extras-v25285558.js"></script><!--[if lte IE 6]>
+  <script type="text/javascript">function ie6minwidth(){var size = (document.documentElement.clientWidth<960 ? '960px' : '100%'); $(document.body).setStyle({'width':size});} document.observe("dom:loaded", ie6minwidth); Event.observe(window, 'resize', ie6minwidth); 
+</script>
+<![endif]-->
+    
+    
+  <style>
+html {
+  background-image: url(http://sf.sciencehackday.com/files/2012/08/OmegaSwanNebula.jpeg);
+  background-position: center;
+  margin-bottom: 50px;
+  height: auto !important;
+} 
+body { 
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  width:90%;
+  background: rgba(0,0,0,0) !important;
+  height: auto !important;
+  margin-bottom: 25px;
+}
+#network-bar {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+#main-tools li a {
+  text-shadow: none;
+  color: white;
+}
+#wrapper {
+  width: auto !important;
+  background: rgba(255,255,255,0.3);
+  color: rgba(0,0,0,0.75);
+  border: 1em solid rgba(255,255,255,0.0);
+  border-bottom-left-radius: 3em;
+  border-bottom-right-radius: 3em;
+}
+</style>
+  <link rel="canonical" href="http://sciencehackday.pbworks.com/w/page/64787953/Madison" />
+            <link rel="alternate" title="Science Hack Day Recent Changes" href="/rss.xml" type="application/rss+xml" />
+      	<title>Science Hack Day / Madison</title>
+</head>
+<body class=" has-ws-nav wikipage python">
+<!-- network bar -->
+<div id="network-bar" class="network-bar clearfix standalone">
+  <ul id="network-bar-breadcrumbs">
+        <li class="last" id="network-crumb-wiki"><a href="/" id="network-crumb-wiki-link">Science Hack Day</a></li>
+  </ul>
+
+      <!-- user bar -->
+    <div id="user-bar" class="user-bar "><div class="user-bar-left"><div class="user-bar-right"><p><a href="http://sciencehackday.pbworks.com/w/session/login">log in</a><a id="network-bar-help" class="network-bar-help" target="_new" href="http://usermanual.pbworks.com?wiki=sciencehackday&amp;utm_campaign=wiki-link">help</a></p></div></div></div>
+  
+  
+  
+</div>
+
+    <div id="ws-nav" class="chrome-content">
+          <ul class="nav-tabs active-tab-wiki first-tab-active">
+        <li id="ws-nav-wiki" class="active"><a href="http://sciencehackday.pbworks.com/w/page/24497030/Home">Wiki</a></li><li id="ws-nav-browse" class="last"><a href="http://sciencehackday.pbworks.com/w/browse/">Pages &amp; Files</a></li>      </ul>
+    
+    <div id="ws-nav-search">
+      <input type="text" placeholder="Search this workspace" class="inputtext text" name="SearchFor" id="input-search"  tabindex="1" title="Search" autocomplete="off"/>
+    </div>
+  </div>
+<div id="wrapper">
+<table id="container" cellspacing="0">
+<tr>
+  <td id="main-content">
+    
+    <div id="page">
+      <div id="page-toolbar">
+        <div id="page-toolbar-inner">
+          <div id="view-tab" class="active">View</div>
+                      <div id="edit-tab" class="logintoedit"><a href="javascript:void(0);">Edit</a></div>
+          					<div id="expand-collapse-page"><a id="expand-collapse-page-link" href="javascript:void(0);"></a></div>
+        </div>
+      </div>
+            <div id="edit-button-bubble" style="display:none" class="bubble">
+        <div id="edit-button-arrow"></div>
+        <a class="close" href="#"></a>
+        <table cellspacing="0"><tr class="header"><td class="left"></td><td class="right"></td></tr><tr class="content"><td class="left"></td><td class="right">
+              <div class="inner-content">
+                              <div class="top">
+                                  <a href="http://sciencehackday.pbworks.com/w/session/login?edit=1">Log in</a> to edit this page.
+                  </div>
+                                            </div>
+            </td></tr></table>
+      </div>
+      
+      <table cellspacing="0" id="inner-page">
+        <tr>
+          <td id="page-col-1" width="4">&nbsp;</td>
+          <td id="page-col-2">
+                          <div id="wikicontent">
+  <h1 class="pagetitle box">
+      Madison
+  </h1>
+    <div class="page-history">
+      <a href="http://sciencehackday.pbworks.com/w/page-revisions/64787953/Madison" class="iconbutton historyicon">
+      Page history
+    </a>
+        last edited
+    by <span id="page-editor"><a href="javascript:alert('Please log in to see more details about this user.');" class="iconbutton usericon usercard_trigger">Chris Meyer</a></span> <span id="page-history-ago">6 months, 1 week ago</span>
+      <div id="new-revision-available"></div>
+  </div>
+  
+  <div id="lockinfo">
+    </div>
+
+    <div id="wikipage" class="box wikistyle">
+
+    <div style="" id="wikipage-inner">
+    <p><a href="http://sector67.org/">Sector67</a> would be interested/able to host an event in Madison, WI USA.  Please contact&nbsp;<a href="mailto:team@sector67.org">Sector67 via e-mail</a> if you're interested in helping to coordinate the event.</p>
+    </div>
+  
+  </div>
+
+  </div>
+
+  <div id="wikiedit" style="display:none;">
+        	<div id="editor-panel" class="box">
+  <h1 id="editTitle" class="pagetitle ellipses">Madison</h1>
+      
+    <table style="table-layout:fixed; width:100%" id="edit-panel">
+      <col/>
+      <col style="width:240px"/>
+      <tr><td>
+      <form method="post" action="/Madison" id="editwikipage"><input type="hidden" name="process" value="edit_page" /><div id="editframe"></div></form>
+      </td>
+      <td>
+      <div id="editor-column" style="margin-left:12px;" class="thingbar">
+			  <div id="edit-tools">
+					     <h4>Page Tools</h4>
+                    <div class="editor-module">
+      <div class="header">
+        <h3>Insert links</h3>
+        <p class="aux">Insert links to other pages or uploaded files.</p>
+      </div>
+      <div class="editor-module-tabs">
+        <a href="#" class="active" id="linkselectab-pages">Pages</a>
+        <a href="#" id="linkselectab-images">Images and files</a>
+      </div>
+  
+      <div class="content">
+          <div style="display:none" id="thingbar-pages">
+            <div style="border-bottom:1px dotted #bbb; font-size: 10px; padding-bottom: 0.5em; margin-bottom: 0.5em;"><a href="javascript:void(0);" onmousedown="insert_newlink_into_editor(); return false">Insert a link to a new page</a></div>
+            <ol id="thingbarpages"><li><div align="center"><span id="thingbarLoadIcon"></span> Loading...</div></li></ol>
+          </div>
+          <div style="display:none;" id="thingbar-images">
+                            <ol id="thingbarfiles"> <li id="thingbar-images-noimages">No images or files uploaded yet.</li>
+</ol>
+			        <div style="border-top:1px dotted #bbb; font-size: 10px; padding-top: 0.5em; margin-top: 0.5em;"><a href="javascript:void(0);" id="thingbar-url-link">Insert image from URL</a></div>
+          </div>
+	    </div>
+    </div>
+			  </div>
+        <p id="editor-tip" class="aux">
+            <strong>Tip:</strong> To turn text into a link, highlight the text, then click on a page or file from the list above.
+        </p>
+		  </div>
+
+	</td>
+</tr>
+</table> 
+</div>
+  </div>
+
+  <style> div#comments .comment { margin-bottom:5px; } div#comments .content p { margin-bottom:5px; }  </style><div id="comments" class="box nocomments">
+<div class="comments-header">
+  <div class="corner4px top"><div class="right"></div><div class="left"></div></div>
+  <h3>
+    Comments (<span id="comments-count">0</span>)
+      </h3>
+  <a name="comments"></a>
+  <div class="corner4px bot"><div class="right"></div><div class="left"></div></div>
+</div>
+<p id="comments-nopermission">You don't have permission to comment on this page.</p>
+</div>
+</div>
+
+  <div id="page-bottom-toolbar">
+  <div class="content box">
+    <a href="/w/page/64787953/Madison?mode=embedded" rel="nofollow" class="iconbutton print" id="print_link">Printable version</a>
+  </div>
+</div>
+
+<!--[if IE]>
+  <style type="text/css" media="screen">
+    div#sendalink_to_container div.accontainer { left: 122px; margin-top: 20px; }
+    input#sendalink_to { margin-bottom: 7px; }
+    div#sendalink_to_container div#header, div#sendalink_to_container ul, div#sendalink_to_container div#footer { display: inline-block; }
+  </style>
+<![endif]-->
+                      </td>
+          <td id="page-col-3" width="4">&nbsp;</td>
+        </tr>
+      </table>
+      <div id="page-footer">
+        <div class="header">
+          <div class="rt"></div>
+          <div class="lt"></div>
+        </div>
+                <div class="footer">
+          <div class="lt"></div>
+          <div class="rt"></div>
+        </div>
+      </div>
+    </div><!--- /#page -->
+
+  </td>
+  <td id="side-content">
+      <div id="sidebar">
+    <div id="side-toolbar" class="sidebox">
+      <ul id="main-tools" class="empty">
+                              </ul>
+      
+    </div><!-- /#side-toolbar -->
+      <div id="sidebarModules">
+                        <div id="module__login" class="wikicontext-module sidebox" style="position: relative; z-index: 0;">
+      <div class="header"><h3>Join this workspace</h3><a class="close togglemodule" href="#"></a></div>
+      <div class="content">
+        <div class="inner-content">
+
+                     <div class="top">
+                          To join this workspace,
+              <a href="https://my.pbworks.com/?p=create&return=http%3A%2F%2Fsciencehackday.pbworks.com%2Fw%2Fsession%2Fjoin%3Fpage_name%3D%26ed%3D1">create an account</a>.
+                          </div>
+            <p>Already have an account? <a href="http://sciencehackday.pbworks.com/w/session/login">Log in</a>!</p>
+                              </div>
+      </div>
+      <div class="footer"></div>
+      </div>
+    
+
+      
+              <div class="wikicontext-module sidebox recentactivity" id="module-recentactivity">
+  <div class="header"><h3 id="module-title-recentactivity">Recent Activity</h3><a href="javascript:void(0);" class="close togglemodule">&nbsp;</a></div>  <div id="new-recent-activity" style="display: none;">
+    <a id="new-recent-activity-refresh" href="#">
+      Show <span id="new-recent-activity-count">0</span> new item<span id="new-recent-activity-plural">s</span>
+    </a>
+  </div>
+  <div class="content" style="height: 364px;">
+    <div class="loading" id="recentactivity_loading_message">Loading&hellip;</div>
+  </div>
+<div class="footer resizeable">&nbsp;</div>
+</div>            </div>
+    </div>
+  </td>
+  </tr>
+
+</table>
+</div>
+    <!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-16CGFkiSpdTEU";quantserve();</script>
+<noscript><img src="http://pixel.quantserve.com/pixel/p-16CGFkiSpdTEU.gif" style="display: none" height="1" width="1" alt="Quantcast"/></noscript>
+<!-- End Quantcast tag -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2694787-12");
+pageTracker._setDomainName(".pbworks.com");
+if (document.cookie.match(/hm=/)) {
+  pageTracker._setVar('authenticated');
+}
+pageTracker._setAllowHash(false);
+pageTracker._trackPageview();
+</script>
+</body>
+</html><!--  -->

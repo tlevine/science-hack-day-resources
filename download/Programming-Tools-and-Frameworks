@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <link rel="stylesheet" type="text/css" href="http://vs1.pbworks.com/shared/statics/packed-m-prod-v12427378.css" />
+
+  
+		<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="http://vs1.pbworks.com/shared/statics/ie6-m-prod-v85351277.css" /><![endif]-->
+  <style>  body, body.wikipage, body.has-ws-nav.wikipage, body #ws-nav ul.nav-tabs #ws-nav-wiki.active { background-color:#F5F5F5 ; }  #wikipage-inner  p,body.wikistyle p, #wikipage-inner  div, #wikipage-inner li { color:#444444 ; }  .wikistyle h4, .wikistyle h3, .wikistyle h2, .wikistyle h1 { color:#444444 ; }  ul#main-tools li a,ul#secondary-tools li a, div#top-content a, #ws-nav ul.nav-tabs #ws-nav-wiki.active a { color:#FFFFFF ; }  ul#main-tools, input#input-search, body.login table.inner, body.login #standalone-login table.inner, body.login table.inner td.table-col-2, div.workspace-panel-outer { border-color:#DFDFDF ; }  div#page-toolbar, body.login table.inner, #workspace-header, body.has-ws-nav #page-footer, body.login.has-ws-nav #page-footer, body.has-ws-nav.login, div#page-footer, div#page-footer .footer { background-color:#DFDFDF ; }  h1.pagetitle { color:#717171 ; }  #wikipage-inner a, div#page-side-toolbar ul a, div.page-history a { color:#0C7094 ; }  td#page-col-2, div#page-bottom-toolbar { background-color:#FFFFFF ; }  div#page-footer .content div { color:#444 ; }  div#page-footer div.content a, #print_link { color:#466F88 ; }  body.has-ws-nav #page-footer { border-color:#466F88 ; }  .wikicontext-module p, .wikicontext-module li { color:#444444 ; }  .wikicontext-module .header { border-color:#F5F5F5 ; }  .wikicontext-module .header { background-color:#F5F5F5 ; }  .wikicontext-module .header { color:#444 ; }  #side-content * a { color:#16476F ; }  div.comments-header { background-color:#f4f4f4 ; }  div.comments-header { color:#000000 ; }  #comments a { color:#114488 ; }  #ws-nav, #workspace-header { background-color:#F5F5F5 ; }  #ws-nav ul.nav-tabs li { background-color:#F5F5F5 ; }  #ws-nav ul.nav-tabs li a, #page-toolbar-inner div a { color:#7D7D7D ; }  div#view-tab.active { background-image: url(/theme_image.php?seg=l&colortime=1356666446) } div#page-toolbar-inner { background-image: url(/theme_image.php?seg=m&colortime=1356666446) } div#page-toolbar { background-image: url(/theme_image.php?seg=n&colortime=1356666446) } td#page-col-1 { background-image: url(/theme_image.php?seg=i&colortime=1356666446) } td#page-col-3 { background-image: url(/theme_image.php?seg=j&colortime=1356666446) } div#page-side-toolbar div.header { background-image: url(/theme_image.php?seg=c&colortime=1356666446) } div#page-side-toolbar { background-image: url(/theme_image.php?seg=b&colortime=1356666446) } div#page-side-toolbar ul { background-image: url(/theme_image.php?seg=a&colortime=1356666446) } div#page-footer .header .lt { background-image: url(/theme_image.php?seg=f&colortime=1356666446) } div#page-footer .header .rt { background-image: url(/theme_image.php?seg=h&colortime=1356666446) } div#page-footer .header { background-image: url(/theme_image.php?seg=g&colortime=1356666446) } div#page-footer .footer .lt { background-image: url(/theme_image.php?seg=e&colortime=1356666446) } div#page-footer .footer .rt { background-image: url(/theme_image.php?seg=d&colortime=1356666446) } div#edit-tab.active { background-image: url(/theme_image.php?seg=k&colortime=1356666446) } div#view-tab { background-image: url(/theme_image.php?seg=o&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs { background-image: url(/theme_image.php?seg=v&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs.active-tab-wiki { background-image: url(/theme_image.php?seg=p&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs.first-tab-active-not-wiki { background-image: url(/theme_image.php?seg=r&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li { background-image: url(/theme_image.php?seg=w&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.active { background-image: url(/theme_image.php?seg=t&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.next-active { background-image: url(/theme_image.php?seg=s&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.last { background-image: url(/theme_image.php?seg=x&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.last-active { background-image: url(/theme_image.php?seg=u&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs #ws-nav-wiki.active { background-image: url(/theme_image.php?seg=q&colortime=1356666446) } div#page-bottom-toolbar { background:none; } body.wikistyle { background-color:#FFFFFF !important } #comments .comments-header .corner4px { visibility: hidden; } #comments .comments-header { border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; } </style>    
+        <script>
+  PBinfo = {"CurrentPage":{"isDev":false,"sessCookie":"ds3","requesttime":"1380406357","page":"Programming Tools and Frameworks","editor_v3":true,"folder":"Resources","security":"default"},"CurrentWiki":{"front_page":"Home","isPublic":true,"is_archived":false,"debug":false,"usercount":"875","filecount":6,"pagecount":130,"foldercount":"2","name":"sciencehackday","title":"Science Hack Day","cat":"ind","readonly":null,"comments_disabled":"","comments_newest_first":"","network_groups":[],"publicedit":true,"premium":true},"CheckPermissions":{"uid":false,"personal_wiki":false},"GetFeatures":{"fliqz_upsell":true,"classroom_accounts":true,"lockpages":true,"page_security":true,"allow_public":true,"additive_custom_security":true,"folder_security":true,"file_import":true,"workspace_user_groups":true,"fliqz":true},"GetTimes":{"_valid_as_of":"1380406357","commenttime":1380392882,"filetime":1373781560,"foldertime":1326859703,"grouptime":0,"page_list_time":1380390375,"pagetime":1380406263,"permtime":1380392751,"tagtime":1319734492,"_args":{"op":"GetTimes"}},"GetUserPrefs":{"sidebar":{"recentactivity":[]},"sidebar_collapsed":"","show_rev_comment":"context-error"},"BuildTime":1380225063,"CurrentObject":24607895,"GetPage":{"_perm_cache_times":{"pagetime":1380406263,"foldertime":1326859703,"permtime":1380392751},"_valid_as_of":"1380406357","author":{"perm":"write","name":"Tim Clem","first_name":"Tim","last_name":"Clem","email":"tclem@github.com","image":"http:\/\/sciencehackday.pbworks.com\/uimg\/bread.png","verified":"1308864000","email_verified":"1308864000","lastview":1380392400,"lastviewtext":"3 hours","uid":"232cfe2a4d230fd87467c60221e0b1ad34a655b4"},"comment":"Add GitHub as another tool to use","current_revision":1380392383,"folder":"Resources","hasPlugins":false,"has_custom_perms":false,"hidden":false,"locked":false,"mtime":1380392383,"name":"Programming Tools and Frameworks","oid":24607895,"perms":{"r":true},"revcount":21,"revurl":"http:\/\/sciencehackday.pbworks.com\/w\/page\/24607895\/Programming%20Tools%20and%20Frameworks","size":9843,"wikistyle":false,"_args":{"oid":24607895,"revision":false,"op":"GetPage"}}};
+</script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/libraries-v61087449.js"></script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/packed-v72633922.js"></script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/extras-v25285558.js"></script><!--[if lte IE 6]>
+  <script type="text/javascript">function ie6minwidth(){var size = (document.documentElement.clientWidth<960 ? '960px' : '100%'); $(document.body).setStyle({'width':size});} document.observe("dom:loaded", ie6minwidth); Event.observe(window, 'resize', ie6minwidth); 
+</script>
+<![endif]-->
+    
+    
+  <style>
+html {
+  background-image: url(http://sf.sciencehackday.com/files/2012/08/OmegaSwanNebula.jpeg);
+  background-position: center;
+  margin-bottom: 50px;
+  height: auto !important;
+} 
+body { 
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  width:90%;
+  background: rgba(0,0,0,0) !important;
+  height: auto !important;
+  margin-bottom: 25px;
+}
+#network-bar {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+#main-tools li a {
+  text-shadow: none;
+  color: white;
+}
+#wrapper {
+  width: auto !important;
+  background: rgba(255,255,255,0.3);
+  color: rgba(0,0,0,0.75);
+  border: 1em solid rgba(255,255,255,0.0);
+  border-bottom-left-radius: 3em;
+  border-bottom-right-radius: 3em;
+}
+</style>
+  <link rel="canonical" href="http://sciencehackday.pbworks.com/w/page/24607895/Programming%20Tools%20and%20Frameworks" />
+            <link rel="alternate" title="Science Hack Day Recent Changes" href="/rss.xml" type="application/rss+xml" />
+      	<title>Science Hack Day / Programming Tools and Frameworks</title>
+</head>
+<body class=" has-ws-nav wikipage python">
+<!-- network bar -->
+<div id="network-bar" class="network-bar clearfix standalone">
+  <ul id="network-bar-breadcrumbs">
+        <li class="last" id="network-crumb-wiki"><a href="/" id="network-crumb-wiki-link">Science Hack Day</a></li>
+  </ul>
+
+      <!-- user bar -->
+    <div id="user-bar" class="user-bar "><div class="user-bar-left"><div class="user-bar-right"><p><a href="http://sciencehackday.pbworks.com/w/session/login">log in</a><a id="network-bar-help" class="network-bar-help" target="_new" href="http://usermanual.pbworks.com?wiki=sciencehackday&amp;utm_campaign=wiki-link">help</a></p></div></div></div>
+  
+  
+  
+</div>
+
+    <div id="ws-nav" class="chrome-content">
+          <ul class="nav-tabs active-tab-wiki first-tab-active">
+        <li id="ws-nav-wiki" class="active"><a href="http://sciencehackday.pbworks.com/w/page/24497030/Home">Wiki</a></li><li id="ws-nav-browse" class="last"><a href="http://sciencehackday.pbworks.com/w/browse/">Pages &amp; Files</a></li>      </ul>
+    
+    <div id="ws-nav-search">
+      <input type="text" placeholder="Search this workspace" class="inputtext text" name="SearchFor" id="input-search"  tabindex="1" title="Search" autocomplete="off"/>
+    </div>
+  </div>
+<div id="wrapper">
+<table id="container" cellspacing="0">
+<tr>
+  <td id="main-content">
+    
+    <div id="page">
+      <div id="page-toolbar">
+        <div id="page-toolbar-inner">
+          <div id="view-tab" class="active">View</div>
+                      <div id="edit-tab" class="logintoedit"><a href="javascript:void(0);">Edit</a></div>
+          					<div id="expand-collapse-page"><a id="expand-collapse-page-link" href="javascript:void(0);"></a></div>
+        </div>
+      </div>
+            <div id="edit-button-bubble" style="display:none" class="bubble">
+        <div id="edit-button-arrow"></div>
+        <a class="close" href="#"></a>
+        <table cellspacing="0"><tr class="header"><td class="left"></td><td class="right"></td></tr><tr class="content"><td class="left"></td><td class="right">
+              <div class="inner-content">
+                              <div class="top">
+                                  <a href="http://sciencehackday.pbworks.com/w/session/login?edit=1">Log in</a> to edit this page.
+                  </div>
+                                            </div>
+            </td></tr></table>
+      </div>
+      
+      <table cellspacing="0" id="inner-page">
+        <tr>
+          <td id="page-col-1" width="4">&nbsp;</td>
+          <td id="page-col-2">
+                          <div id="wikicontent">
+  <h1 class="pagetitle box">
+      Programming Tools and Frameworks
+  </h1>
+    <div class="page-history">
+      <a href="http://sciencehackday.pbworks.com/w/page-revisions/24607895/Programming%20Tools%20and%20Frameworks" class="iconbutton historyicon">
+      Page history
+    </a>
+        last edited
+    by <span id="page-editor"><a href="javascript:alert('Please log in to see more details about this user.');" class="iconbutton usericon usercard_trigger">Tim Clem</a></span> <span id="page-history-ago">3 hours, 52 minutes ago</span>
+      <a href="http://sciencehackday.pbworks.com/w/page-revisions/24607895/Programming%20Tools%20and%20Frameworks"><img src="/shared/icons/comment.png" alt="Saved with comment" title="Add GitHub as another tool to use"></a>
+      <div id="new-revision-available"></div>
+  </div>
+  
+  <div id="lockinfo">
+    </div>
+
+    <div id="wikipage" class="box wikistyle">
+
+    <div style="" id="wikipage-inner">
+    <h3>C++&nbsp;</h3>
+<ul><li><strong><a href="http://mat.ucsb.edu/glv/">GLV</a>&nbsp;-&nbsp;</strong>(Graphics Library of Views) is a GUI building toolkit written in C++ for Linux, OSX, and Win32. GLV is specially designed for creating interfaces to real-time, multimedia applications using hardware accelerated graphics. GLV has no dependencies on other libraries other than OpenGL which is provided by all modern operating systems.</li>
+<li><strong><a href="http://fastlabinc.com/CSL">CSL</a>&nbsp;-&nbsp;</strong>The CREATE Signal Library (CSL, pron. "sizzle") is a cross-platform general-purpose software framework for sound synthesis and digital audio signal processing. It is implemented as a C++ class library to be used as a stand-alone synthesis server, or embedded as a library into other programs.CSL provides simple and reusable implementations of all common sound synthesis and processing techniques, and includes support for a wide variety of audio I/O interfaces such as PortAudio, RTAudio, JACK, VST, CoreAudio and JUCE.</li>
+<li><strong><a href="http://mat.ucsb.edu/gamma/">Gamma</a>&nbsp;-&nbsp;</strong>Gamma is a cross-platform, C++ library for doing generic synthesis and filtering of numerical data. It is oriented towards real-time sound and graphics rendering, but is equally useful for non-real-time tasks.</li>
+</ul><p><span style="font-family:'Segoe UI', 'Lucida Grande', Arial, sans-serif;font-size:15px;font-weight:bold;line-height:1.25em;">&nbsp;</span></p>
+<h3>&nbsp;</h3>
+<h3>Data Viz</h3>
+<ul><li><a href="http://processingjs.org/" search_id="undefined"><strong>Processing</strong></a></li>
+<ul><li><a href="http://www.centerspace.net/">http://processingjs.org/</a></li>
+<li>How to get your processing&nbsp;sketches&nbsp;onto your Android phone:&nbsp;<a href="http://blog.blprnt.com/blog/blprnt/processing-android-mobile-app-development-made-very-easy">http://blog.blprnt.com/blog/blprnt/processing-android-mobile-app-development-made-very-easy</a>&nbsp;</li>
+</ul><li><a href="http://gephi.org/">Gephi</a></li>
+<ul><li><a href="http://gephi.org/">http://gephi.org/</a></li>
+</ul><li><a href="https://sci2.cns.iu.edu/user/index.php">https://sci2.cns.iu.edu/user/index.php</a>&nbsp;&nbsp;</li>
+<li>Slides showing some other tools: <a href="http://www.slideshare.net/mattb/science-hackday-using-visualisation-to-understand-your-data">http://www.slideshare.net/mattb/science-hackday-using-visualisation-to-understand-your-data</a> &nbsp;</li>
+</ul><p>&nbsp;</p>
+<h3>&nbsp;Data wrangling</h3>
+<ul><li><a href="http://code.google.com/p/google-refine/" search_id="undefined">Google Refine</a></li>
+<li><a href="http://vis.stanford.edu/wrangler/" search_id="undefined">Data Wrangler</a></li>
+<li><a href="http://www.datasciencetoolkit.org/" search_id="undefined">Data Science Toolkit</a></li>
+<li><a href="https://github.com/onyxfish/csvkit" search_id="undefined">CSVkit</a>&nbsp;</li>
+</ul><h3>&nbsp;</h3>
+<h3>GitHub</h3>
+<ul><li>Open source project hosting and collaboration platform.</li>
+<li>Hosts projects like <a href="https://github.com/ipython/ipython">IPython</a> and other open source scientific software toolchains.</li>
+<li>Check out the <a href="https://github.com/sciencehackday/sf-2013">2013 Science Hack Day repository</a>, add &amp; create your own project or just <a href="https://github.com/signup">sign up</a> and use GitHub on your own.</li>
+</ul><h3>&nbsp;</h3>
+<h3>Java</h3>
+<ul><li><a href="http://jscience.org/">JScience</a> - provides abstractions for many common scientific and mathematical datatypes.</li>
+<li><a href="http://math.nist.gov/javanumerics/">Java Numerics</a></li>
+<li><a href="http://commons.apache.org/math/userguide/index.html">Apache Commons Math</a> library</li>
+<li><a href="http://angusforbes.github.com/stereo/">Stereo</a>&nbsp;-&nbsp;<span style="color:#2e2e2e;font-family:Arial, Helvetica, sans-serif;">a Java library that lets users easily perform active, passive and anaglyph stereographic rendering in the&nbsp;</span><a href="http://processing.org/" target="_blank">Processing programming environment</a><span style="color:#2e2e2e;font-family:Arial, Helvetica, sans-serif;">.</span></li>
+</ul><p>&nbsp;</p>
+<h3><strong>Javascript</strong>&nbsp;</h3>
+<ul><li>Graphing</li>
+<ul><li><a href="http://raphaeljs.com/">http://raphaeljs.com/</a>&nbsp;&nbsp;</li>
+<li><span style="font-family:'Lucida Grande', Verdana, Lucida, Helvetica, Arial, sans-serif;color:#000000;">RGraph:&nbsp;<a title="http://www.rgraph.net/" href="http://www.rgraph.net/">http://www.rgraph.net/</a>&nbsp;(JS/HTML5)</span></li>
+<li><span style="font-family:'Lucida Grande', Verdana, Lucida, Helvetica, Arial, sans-serif;color:#000000;">ProtoViz:&nbsp;<a title="http://vis.stanford.edu/protovis/ex/" href="http://vis.stanford.edu/protovis/ex/">http://vis.stanford.edu/protovis/ex/</a></span>&nbsp;(JS/HTML5)</li>
+<li>Processing in JS:&nbsp;<a href="http://processingjs.org/">http://processingjs.org/</a>&nbsp;</li>
+</ul></ul><p>&nbsp;</p>
+<h3>.NET/C#</h3>
+<ul><li><a href="http://www.centerspace.net/">NMath</a></li>
+</ul><p>&nbsp;</p>
+<h3>Other</h3>
+<ul><li><strong><a href="http://www.allosphere.ucsb.edu/cosm/">Cosm</a>&nbsp;-&nbsp;</strong>Cosm is an integrated collection of externals and abstractions to assist the construction of navigable, sonified virtual worlds using Max/MSP/Jitter. Cosm has been designed to require only minimal changes to existing Max/MSP/Jitter patches to support a number of features valuable in the creation of virtual worlds.</li>
+<li><strong><a href="http://lua-av.mat.ucsb.edu/">LuaAV</a>&nbsp;-&nbsp;</strong>LuaAV is an integrated programming environment based upon extensions to the Lua programming language to enable the tight real-time integration of computation, time, sound and space. It is intended to support:&nbsp;<span style="color:#2e2e2e;">Computational Audiovisual Composition,&nbsp;</span><span style="color:#2e2e2e;">Interactive arts,&nbsp;</span><span style="color:#2e2e2e;">Multimedia development research,&nbsp;</span><span style="color:#2e2e2e;">Scientific visualization,&nbsp;</span><span style="color:#2e2e2e;">Research application development</span></li>
+<li><strong><a href="http://www.allosphere.ucsb.edu/DeviceServer/">DeviceServer</a>&nbsp;-&nbsp;</strong>The DeviceServer is both a framework and application for providing interactive affordances to client applications. It allows applications to easily link functionalities to a wide variety of devices (joysticks, wiimotes, iphones, camera tracking systems). It also allows users to see all devices connected to the server, monitor their signals and record them for future playback.</li>
+</ul><p><span style="color:#2e2e2e;font-family:Arial, Helvetica, sans-serif;line-height:15px;">&nbsp;</span></p>
+<h3>Python</h3>
+<ul><li><a href="http://www.scipy.org/">SciPy</a></li>
+<li><a href="http://numpy.scipy.org/">NumPy</a></li>
+<li><a href="http://www.stsci.edu/resources/software_hardware/pyfits" target="_blank">PyFITS</a> (for reading FITS images / tables -- common in astronomy)</li>
+<li><a href="http://www.pythonware.com/products/pil/">PIL</a> &nbsp;</li>
+<li>Network/Graph tools</li>
+<ul><li><a href="http://wiki.python.org/moin/PythonGraphApi">http://wiki.python.org/moin/PythonGraphApi</a></li>
+</ul><li>Graphing In Python</li>
+<ul><li><a href="http://wiki.python.org/moin/NumericAndScientific/Plotting">http://wiki.python.org/moin/NumericAndScientific/Plotting</a></li>
+</ul><li><a href="http://astrometry.net/downloads">http://astrometry.net/downloads</a> -- some miscellaneous astronomy utils (for handling SDSS data, eg, a slicker PyFits wrapper, code for plotting stuff on the sky)&nbsp; (-Dustin Lang -- I'll be watching email on Nov 13, drop a note to code2 at astrometry.net for help)</li>
+<li><a href="http://scikits.appspot.com/" search_id="undefined">SciKits</a> </li>
+<li><a href="http://pandas.sourceforge.net/" search_id="undefined">Pandas</a>&nbsp; - Python data analysis toolkit -&nbsp; for R users moving to Python or Python users wanting some of R's handy tabular data features.</li>
+<li><a href="http://biopython.org/wiki/Main_Page">Biopython </a>- set of freely available tools for biological computation</li>
+</ul><p>&nbsp;</p>
+<h3>R</h3>
+<ul><li><a href="/%5C%5Cr-project.org">R</a> </li>
+<li><a href="http://cran.r-project.org/CRAN">CRAN</a> </li>
+<li><a href="http://rpy.sourceforge.net/RPy">RPy</a></li>
+<li><a href="http://had.co.nz/ggplot2/ggplot2">ggplot2</a></li>
+<li><a href="https://github.com/rtelmore/RDSTK" search_id="undefined">R interface to data science toolkit </a></li>
+<li><a href="http://ropensci.org/rOpenSci">rOpenSci </a>- R interface for open science APIs</li>
+<li><a href="http://www.bioconductor.org/">BioConductor </a>-&nbsp; provides tools for the analysis and comprehension of 		high-throughput genomic data.</li>
+</ul><p>&nbsp;</p>
+<h3>Ruby</h3>
+<ul><li>Graphing libraries</li>
+<ul><li><a href="http://nubyonrails.com/pages/gruff">Gruff Graphs</a></li>
+<li><a href="http://www.rubyinside.com/scruffy-a-beautiful-graphing-toolkit-for-ruby-194.html">Scruffy</a></li>
+<li><a href="http://nubyonrails.com/articles/sparklines-graph-library-for-ruby">Sparklines</a></li>
+<li><a href="http://rgl.rubyforge.org/rgl/index.html">RGL</a></li>
+</ul><li><a href="http://narray.rubyforge.org/">NArray Numerical Ruby</a></li>
+<li><a href="http://rnum.rubyforge.org/">RNum</a></li>
+</ul><h3>&nbsp;</h3>
+<h3>Voxeo&nbsp;</h3>
+<ul><li>The <a href="http://www.voxeo.com/developers/">Voxeo</a> site has some really easy to use tools for people who want to develop telephony applications. The tools are free for developer use.</li>
+</ul>
+    </div>
+  
+  </div>
+
+  </div>
+
+  <div id="wikiedit" style="display:none;">
+        	<div id="editor-panel" class="box">
+  <h1 id="editTitle" class="pagetitle ellipses">Programming Tools and Frameworks</h1>
+      
+    <table style="table-layout:fixed; width:100%" id="edit-panel">
+      <col/>
+      <col style="width:240px"/>
+      <tr><td>
+      <form method="post" action="/Programming%20Tools%20and%20Frameworks" id="editwikipage"><input type="hidden" name="process" value="edit_page" /><div id="editframe"></div></form>
+      </td>
+      <td>
+      <div id="editor-column" style="margin-left:12px;" class="thingbar">
+			  <div id="edit-tools">
+					     <h4>Page Tools</h4>
+                    <div class="editor-module">
+      <div class="header">
+        <h3>Insert links</h3>
+        <p class="aux">Insert links to other pages or uploaded files.</p>
+      </div>
+      <div class="editor-module-tabs">
+        <a href="#" class="active" id="linkselectab-pages">Pages</a>
+        <a href="#" id="linkselectab-images">Images and files</a>
+      </div>
+  
+      <div class="content">
+          <div style="display:none" id="thingbar-pages">
+            <div style="border-bottom:1px dotted #bbb; font-size: 10px; padding-bottom: 0.5em; margin-bottom: 0.5em;"><a href="javascript:void(0);" onmousedown="insert_newlink_into_editor(); return false">Insert a link to a new page</a></div>
+            <ol id="thingbarpages"><li><div align="center"><span id="thingbarLoadIcon"></span> Loading...</div></li></ol>
+          </div>
+          <div style="display:none;" id="thingbar-images">
+                            <ol id="thingbarfiles"> <li id="thingbar-images-noimages">No images or files uploaded yet.</li>
+</ol>
+			        <div style="border-top:1px dotted #bbb; font-size: 10px; padding-top: 0.5em; margin-top: 0.5em;"><a href="javascript:void(0);" id="thingbar-url-link">Insert image from URL</a></div>
+          </div>
+	    </div>
+    </div>
+			  </div>
+        <p id="editor-tip" class="aux">
+            <strong>Tip:</strong> To turn text into a link, highlight the text, then click on a page or file from the list above.
+        </p>
+		  </div>
+
+	</td>
+</tr>
+</table> 
+</div>
+  </div>
+
+  <style> div#comments .comment { margin-bottom:5px; } div#comments .content p { margin-bottom:5px; }  </style><div id="comments" class="box nocomments">
+<div class="comments-header">
+  <div class="corner4px top"><div class="right"></div><div class="left"></div></div>
+  <h3>
+    Comments (<span id="comments-count">0</span>)
+      </h3>
+  <a name="comments"></a>
+  <div class="corner4px bot"><div class="right"></div><div class="left"></div></div>
+</div>
+<p id="comments-nopermission">You don't have permission to comment on this page.</p>
+</div>
+</div>
+
+  <div id="page-bottom-toolbar">
+  <div class="content box">
+    <a href="/w/page/24607895/Programming%20Tools%20and%20Frameworks?mode=embedded" rel="nofollow" class="iconbutton print" id="print_link">Printable version</a>
+  </div>
+</div>
+
+<!--[if IE]>
+  <style type="text/css" media="screen">
+    div#sendalink_to_container div.accontainer { left: 122px; margin-top: 20px; }
+    input#sendalink_to { margin-bottom: 7px; }
+    div#sendalink_to_container div#header, div#sendalink_to_container ul, div#sendalink_to_container div#footer { display: inline-block; }
+  </style>
+<![endif]-->
+                      </td>
+          <td id="page-col-3" width="4">&nbsp;</td>
+        </tr>
+      </table>
+      <div id="page-footer">
+        <div class="header">
+          <div class="rt"></div>
+          <div class="lt"></div>
+        </div>
+                <div class="footer">
+          <div class="lt"></div>
+          <div class="rt"></div>
+        </div>
+      </div>
+    </div><!--- /#page -->
+
+  </td>
+  <td id="side-content">
+      <div id="sidebar">
+    <div id="side-toolbar" class="sidebox">
+      <ul id="main-tools" class="empty">
+                              </ul>
+      
+    </div><!-- /#side-toolbar -->
+      <div id="sidebarModules">
+                        <div id="module__login" class="wikicontext-module sidebox" style="position: relative; z-index: 0;">
+      <div class="header"><h3>Join this workspace</h3><a class="close togglemodule" href="#"></a></div>
+      <div class="content">
+        <div class="inner-content">
+
+                     <div class="top">
+                          To join this workspace,
+              <a href="https://my.pbworks.com/?p=create&return=http%3A%2F%2Fsciencehackday.pbworks.com%2Fw%2Fsession%2Fjoin%3Fpage_name%3D%26ed%3D1">create an account</a>.
+                          </div>
+            <p>Already have an account? <a href="http://sciencehackday.pbworks.com/w/session/login">Log in</a>!</p>
+                              </div>
+      </div>
+      <div class="footer"></div>
+      </div>
+    
+
+      
+              <div class="wikicontext-module sidebox recentactivity" id="module-recentactivity">
+  <div class="header"><h3 id="module-title-recentactivity">Recent Activity</h3><a href="javascript:void(0);" class="close togglemodule">&nbsp;</a></div>  <div id="new-recent-activity" style="display: none;">
+    <a id="new-recent-activity-refresh" href="#">
+      Show <span id="new-recent-activity-count">0</span> new item<span id="new-recent-activity-plural">s</span>
+    </a>
+  </div>
+  <div class="content" style="height: 364px;">
+    <div class="loading" id="recentactivity_loading_message">Loading&hellip;</div>
+  </div>
+<div class="footer resizeable">&nbsp;</div>
+</div>            </div>
+    </div>
+  </td>
+  </tr>
+
+</table>
+</div>
+    <!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-16CGFkiSpdTEU";quantserve();</script>
+<noscript><img src="http://pixel.quantserve.com/pixel/p-16CGFkiSpdTEU.gif" style="display: none" height="1" width="1" alt="Quantcast"/></noscript>
+<!-- End Quantcast tag -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2694787-12");
+pageTracker._setDomainName(".pbworks.com");
+if (document.cookie.match(/hm=/)) {
+  pageTracker._setVar('authenticated');
+}
+pageTracker._setAllowHash(false);
+pageTracker._trackPageview();
+</script>
+</body>
+</html><!--  -->

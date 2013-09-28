@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <link rel="stylesheet" type="text/css" href="http://vs1.pbworks.com/shared/statics/packed-m-prod-v12427378.css" />
+
+  
+		<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="http://vs1.pbworks.com/shared/statics/ie6-m-prod-v85351277.css" /><![endif]-->
+  <style>  body, body.wikipage, body.has-ws-nav.wikipage, body #ws-nav ul.nav-tabs #ws-nav-wiki.active { background-color:#F5F5F5 ; }  #wikipage-inner  p,body.wikistyle p, #wikipage-inner  div, #wikipage-inner li { color:#444444 ; }  .wikistyle h4, .wikistyle h3, .wikistyle h2, .wikistyle h1 { color:#444444 ; }  ul#main-tools li a,ul#secondary-tools li a, div#top-content a, #ws-nav ul.nav-tabs #ws-nav-wiki.active a { color:#FFFFFF ; }  ul#main-tools, input#input-search, body.login table.inner, body.login #standalone-login table.inner, body.login table.inner td.table-col-2, div.workspace-panel-outer { border-color:#DFDFDF ; }  div#page-toolbar, body.login table.inner, #workspace-header, body.has-ws-nav #page-footer, body.login.has-ws-nav #page-footer, body.has-ws-nav.login, div#page-footer, div#page-footer .footer { background-color:#DFDFDF ; }  h1.pagetitle { color:#717171 ; }  #wikipage-inner a, div#page-side-toolbar ul a, div.page-history a { color:#0C7094 ; }  td#page-col-2, div#page-bottom-toolbar { background-color:#FFFFFF ; }  div#page-footer .content div { color:#444 ; }  div#page-footer div.content a, #print_link { color:#466F88 ; }  body.has-ws-nav #page-footer { border-color:#466F88 ; }  .wikicontext-module p, .wikicontext-module li { color:#444444 ; }  .wikicontext-module .header { border-color:#F5F5F5 ; }  .wikicontext-module .header { background-color:#F5F5F5 ; }  .wikicontext-module .header { color:#444 ; }  #side-content * a { color:#16476F ; }  div.comments-header { background-color:#f4f4f4 ; }  div.comments-header { color:#000000 ; }  #comments a { color:#114488 ; }  #ws-nav, #workspace-header { background-color:#F5F5F5 ; }  #ws-nav ul.nav-tabs li { background-color:#F5F5F5 ; }  #ws-nav ul.nav-tabs li a, #page-toolbar-inner div a { color:#7D7D7D ; }  div#view-tab.active { background-image: url(/theme_image.php?seg=l&colortime=1356666446) } div#page-toolbar-inner { background-image: url(/theme_image.php?seg=m&colortime=1356666446) } div#page-toolbar { background-image: url(/theme_image.php?seg=n&colortime=1356666446) } td#page-col-1 { background-image: url(/theme_image.php?seg=i&colortime=1356666446) } td#page-col-3 { background-image: url(/theme_image.php?seg=j&colortime=1356666446) } div#page-side-toolbar div.header { background-image: url(/theme_image.php?seg=c&colortime=1356666446) } div#page-side-toolbar { background-image: url(/theme_image.php?seg=b&colortime=1356666446) } div#page-side-toolbar ul { background-image: url(/theme_image.php?seg=a&colortime=1356666446) } div#page-footer .header .lt { background-image: url(/theme_image.php?seg=f&colortime=1356666446) } div#page-footer .header .rt { background-image: url(/theme_image.php?seg=h&colortime=1356666446) } div#page-footer .header { background-image: url(/theme_image.php?seg=g&colortime=1356666446) } div#page-footer .footer .lt { background-image: url(/theme_image.php?seg=e&colortime=1356666446) } div#page-footer .footer .rt { background-image: url(/theme_image.php?seg=d&colortime=1356666446) } div#edit-tab.active { background-image: url(/theme_image.php?seg=k&colortime=1356666446) } div#view-tab { background-image: url(/theme_image.php?seg=o&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs { background-image: url(/theme_image.php?seg=v&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs.active-tab-wiki { background-image: url(/theme_image.php?seg=p&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs.first-tab-active-not-wiki { background-image: url(/theme_image.php?seg=r&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li { background-image: url(/theme_image.php?seg=w&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.active { background-image: url(/theme_image.php?seg=t&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.next-active { background-image: url(/theme_image.php?seg=s&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.last { background-image: url(/theme_image.php?seg=x&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs li.last-active { background-image: url(/theme_image.php?seg=u&colortime=1356666446) } body.has-ws-nav #ws-nav ul.nav-tabs #ws-nav-wiki.active { background-image: url(/theme_image.php?seg=q&colortime=1356666446) } div#page-bottom-toolbar { background:none; } body.wikistyle { background-color:#FFFFFF !important } #comments .comments-header .corner4px { visibility: hidden; } #comments .comments-header { border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; } </style>    
+        <script>
+  PBinfo = {"CurrentPage":{"isDev":false,"sessCookie":"ds3","requesttime":"1380406356","page":"Datasets","editor_v3":true,"folder":"Resources","security":"default"},"CurrentWiki":{"front_page":"Home","isPublic":true,"is_archived":false,"debug":false,"usercount":"875","filecount":6,"pagecount":130,"foldercount":"2","name":"sciencehackday","title":"Science Hack Day","cat":"ind","readonly":null,"comments_disabled":"","comments_newest_first":"","network_groups":[],"publicedit":true,"premium":true},"CheckPermissions":{"uid":false,"personal_wiki":false},"GetFeatures":{"fliqz_upsell":true,"classroom_accounts":true,"lockpages":true,"page_security":true,"allow_public":true,"additive_custom_security":true,"folder_security":true,"file_import":true,"workspace_user_groups":true,"fliqz":true},"GetTimes":{"_valid_as_of":"1380406356","commenttime":1380392882,"filetime":1373781560,"foldertime":1326859703,"grouptime":0,"page_list_time":1380390375,"pagetime":1380406263,"permtime":1380392751,"tagtime":1319734492,"_args":{"op":"GetTimes"}},"GetUserPrefs":{"sidebar":{"recentactivity":[]},"sidebar_collapsed":"","show_rev_comment":"context-error"},"BuildTime":1380225063,"CurrentObject":24500475,"GetPage":{"_perm_cache_times":{"pagetime":1380406263,"foldertime":1326859703,"permtime":1380392751},"_valid_as_of":"1380406356","author":{"perm":"write","name":"Jeanne Holm","first_name":"Jeanne","last_name":"Holm","email":"jholm@jpl.nasa.gov","image":"http:\/\/sciencehackday.pbworks.com\/uimg\/bread.png","verified":"1380382944","email_verified":"1380382944","lastview":1380383700,"lastviewtext":"6 hours","uid":"2a2eef9565ca543f5f69947b729f5f9669c18586"},"comment":"Added in U.S. government datasets from Data.gov","current_revision":1380383584,"folder":"Resources","hasPlugins":false,"has_custom_perms":false,"hidden":false,"locked":false,"mtime":1380383584,"name":"Datasets","oid":24500475,"perms":{"r":true},"revcount":75,"revurl":"http:\/\/sciencehackday.pbworks.com\/w\/page\/24500475\/Datasets","size":23966,"wikistyle":false,"_args":{"oid":24500475,"revision":false,"op":"GetPage"}}};
+</script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/libraries-v61087449.js"></script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/packed-v72633922.js"></script>
+<script type="text/javascript" src="http://vs1.pbworks.com/shared/statics/extras-v25285558.js"></script><!--[if lte IE 6]>
+  <script type="text/javascript">function ie6minwidth(){var size = (document.documentElement.clientWidth<960 ? '960px' : '100%'); $(document.body).setStyle({'width':size});} document.observe("dom:loaded", ie6minwidth); Event.observe(window, 'resize', ie6minwidth); 
+</script>
+<![endif]-->
+    
+    
+  <style>
+html {
+  background-image: url(http://sf.sciencehackday.com/files/2012/08/OmegaSwanNebula.jpeg);
+  background-position: center;
+  margin-bottom: 50px;
+  height: auto !important;
+} 
+body { 
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  width:90%;
+  background: rgba(0,0,0,0) !important;
+  height: auto !important;
+  margin-bottom: 25px;
+}
+#network-bar {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+#main-tools li a {
+  text-shadow: none;
+  color: white;
+}
+#wrapper {
+  width: auto !important;
+  background: rgba(255,255,255,0.3);
+  color: rgba(0,0,0,0.75);
+  border: 1em solid rgba(255,255,255,0.0);
+  border-bottom-left-radius: 3em;
+  border-bottom-right-radius: 3em;
+}
+</style>
+  <link rel="canonical" href="http://sciencehackday.pbworks.com/w/page/24500475/Datasets" />
+            <link rel="alternate" title="Science Hack Day Recent Changes" href="/rss.xml" type="application/rss+xml" />
+      	<title>Science Hack Day / Datasets</title>
+</head>
+<body class=" has-ws-nav wikipage python">
+<!-- network bar -->
+<div id="network-bar" class="network-bar clearfix standalone">
+  <ul id="network-bar-breadcrumbs">
+        <li class="last" id="network-crumb-wiki"><a href="/" id="network-crumb-wiki-link">Science Hack Day</a></li>
+  </ul>
+
+      <!-- user bar -->
+    <div id="user-bar" class="user-bar "><div class="user-bar-left"><div class="user-bar-right"><p><a href="http://sciencehackday.pbworks.com/w/session/login">log in</a><a id="network-bar-help" class="network-bar-help" target="_new" href="http://usermanual.pbworks.com?wiki=sciencehackday&amp;utm_campaign=wiki-link">help</a></p></div></div></div>
+  
+  
+  
+</div>
+
+    <div id="ws-nav" class="chrome-content">
+          <ul class="nav-tabs active-tab-wiki first-tab-active">
+        <li id="ws-nav-wiki" class="active"><a href="http://sciencehackday.pbworks.com/w/page/24497030/Home">Wiki</a></li><li id="ws-nav-browse" class="last"><a href="http://sciencehackday.pbworks.com/w/browse/">Pages &amp; Files</a></li>      </ul>
+    
+    <div id="ws-nav-search">
+      <input type="text" placeholder="Search this workspace" class="inputtext text" name="SearchFor" id="input-search"  tabindex="1" title="Search" autocomplete="off"/>
+    </div>
+  </div>
+<div id="wrapper">
+<table id="container" cellspacing="0">
+<tr>
+  <td id="main-content">
+    
+    <div id="page">
+      <div id="page-toolbar">
+        <div id="page-toolbar-inner">
+          <div id="view-tab" class="active">View</div>
+                      <div id="edit-tab" class="logintoedit"><a href="javascript:void(0);">Edit</a></div>
+          					<div id="expand-collapse-page"><a id="expand-collapse-page-link" href="javascript:void(0);"></a></div>
+        </div>
+      </div>
+            <div id="edit-button-bubble" style="display:none" class="bubble">
+        <div id="edit-button-arrow"></div>
+        <a class="close" href="#"></a>
+        <table cellspacing="0"><tr class="header"><td class="left"></td><td class="right"></td></tr><tr class="content"><td class="left"></td><td class="right">
+              <div class="inner-content">
+                              <div class="top">
+                                  <a href="http://sciencehackday.pbworks.com/w/session/login?edit=1">Log in</a> to edit this page.
+                  </div>
+                                            </div>
+            </td></tr></table>
+      </div>
+      
+      <table cellspacing="0" id="inner-page">
+        <tr>
+          <td id="page-col-1" width="4">&nbsp;</td>
+          <td id="page-col-2">
+                          <div id="wikicontent">
+  <h1 class="pagetitle box">
+      Datasets
+  </h1>
+    <div class="page-history">
+      <a href="http://sciencehackday.pbworks.com/w/page-revisions/24500475/Datasets" class="iconbutton historyicon">
+      Page history
+    </a>
+        last edited
+    by <span id="page-editor"><a href="javascript:alert('Please log in to see more details about this user.');" class="iconbutton usericon usercard_trigger">Jeanne Holm</a></span> <span id="page-history-ago">6 hours, 19 minutes ago</span>
+      <a href="http://sciencehackday.pbworks.com/w/page-revisions/24500475/Datasets"><img src="/shared/icons/comment.png" alt="Saved with comment" title="Added in U.S. government datasets from Data.gov"></a>
+      <div id="new-revision-available"></div>
+  </div>
+  
+  <div id="lockinfo">
+    </div>
+
+    <div id="wikipage" class="box wikistyle">
+
+    <div style="" id="wikipage-inner">
+    <p>&nbsp;</p>
+<p><span style="font-family:'Segoe UI', 'Lucida Grande', Arial, sans-serif;font-size:15px;font-weight:bold;line-height:18px;">All Sciences</span></p>
+<ul><li><a href="http://www.science.gov/">Science.gov</a>: searches over 40 databases</li>
+<li><a href="http://srdata.nist.gov/gateway/gateway?dblist=0">NIST Data Gateway</a>&nbsp;</li>
+<li><a href="http://data.gov">Data.gov</a> (with 400,000 datasets)</li>
+<li><a href="http://www.guardian.co.uk/news/datablog+science/science">Guardian Data Store (Google Spreadsheets)</a>&nbsp;</li>
+</ul><h3>&nbsp;</h3>
+<h3>Astronomy, Aeronautics + Space Exploration</h3>
+<ul><li>NASA:&nbsp;<a href="http://data.nasa.gov">Data.nasa.gov</a> - directory of NASA-related datasets&nbsp;</li>
+<li>Space Telescope (optical):&nbsp;<a href="http://cas.sdss.org/dr7/en/">Sloan Digital Sky Survey</a></li>
+<li>Space Telescope (optical):&nbsp;<a href="http://hla.stsci.edu/hlaview.html" target="_blank">Hubble Legacy Archive</a> - search utility to find archival Hubble image. Has nice display feature and access to FITS format (raw image data)</li>
+<li><a href="http://photojournal.jpl.nasa.gov/">NASA JPL Planetary photojournal</a></li>
+<li>U.S. astronomy datasets (via <a href="http://catalog.data.gov/dataset?q=astronomy">Data.gov</a>) </li>
+<li>MAST archive (<span style="color:#000000;font-family:Arial, Helvetica, sans-serif;font-size:100%;">The&nbsp;<strong>M</strong>ultimission&nbsp;<strong>A</strong>rchive at&nbsp;<strong>ST</strong>ScI supports a variety of astronomical data archives, with a primary focus on scientifically related data sets in the optical, ultraviolet, and near-infrared parts of the spectrum</span><span style="color:#000000;font-family:Arial, Helvetica, sans-serif;font-size:100%;">&nbsp;</span><a href="http://www.goldrushamerica.com">Gold Parties</a>)&nbsp;<a href="http://archive.stsci.edu/missions.html">http://archive.stsci.edu/missions.html</a> </li>
+<li>
+<p>Space Telescope (radio):&nbsp;<a href="http://setiquest.org/blog/release-first-information-seti-institute-under-setiquest-project">SETI Institute radio telescope data sets</a> &nbsp;- "We hope that you can analyze this data in different ways, and come up with signals we may have missed."</p>
+</li>
+<li><a href="http://www.merlin.ac.uk/archive/">MERLIN Data Archive</a> - the catalogue of processed MERLIN data (UK-based radio interferometer) since June 1991.</li>
+<li><a href="http://www.jive.nl/archive-introduction">European VLBI Network Archive</a> - radio observations combining data from many telescopes across Europe.</li>
+<li>Exoplanets:&nbsp;<a href="http://exoplanets.org/">Exoplanet orbit database</a> - properties of planets orbiting stars other than the Sun. See also <a href="http://www.exoplanet.eu/">the Extrasolar Planets Encyclopaedia</a> and <a href="http://exoplanet.hanno-rein.de/index.php">the Visual Exoplanet Catalogue</a>.</li>
+<li>Satellites (orbital):&nbsp;<a href="http://orbitingfrog.com/post/3424204060/satellites-on-google-earth" search_id="undefined">KML files for satellites</a>.</li>
+<li>Pulsars:&nbsp;<a href="http://www.atnf.csiro.au/research/pulsar/psrcat/">The ATNF Pulsar Database</a>&nbsp;(<a href="http://laurakogler.net/other/PulsarVisualization/">visualization of known pulsars</a>)</li>
+<li><a href="http://archive.stsci.edu/kepler/">http://archive.stsci.edu/kepler/</a></li>
+<li>Galaxies:&nbsp;<a href="http://data.galaxyzoo.org/" target="_blank">Galaxy Zoo</a>&nbsp;&nbsp;- more than 40 million morphological classifications of 900,000 SDSS galaxies by over 100,000 people. &nbsp;</li>
+<li>Space Telescope Science Institute: STScI (<a href="http://archive.stsci.edu"><span style="text-decoration:underline;">http://archive.stsci.edu</span></a>/)</li>
+<li>NASA/IPAC Infrared Data Archive (<a href="http://irsa.ipac.caltech.edu"><span style="text-decoration:underline;">http://irsa.ipac.caltech.edu</span></a>/)</li>
+<li>Papers data for astronomy and others (ADS: <a href="http://adswww.harvard.edu"><span style="text-decoration:underline;">http://adswww.harvard.edu</span></a>/, arXiv: <a href="http://arxiv.org"><span style="text-decoration:underline;">http://arxiv.org</span></a>/)</li>
+<li>NASA SkyView: multiwavelength, all-sky data server. (<a href="http://skyview.gsfc.nasa.gov"><span style="text-decoration:underline;">http://skyview.gsfc.nasa.gov</span></a>/)&nbsp;</li>
+<li>VizieR: a very complete collection of astronomical databases. <a href="http://vizier.u-strasbg.fr/viz-bin/VizieR">http://vizier.u-strasbg.fr/viz-bin/VizieR</a>. For instance get the entire Tycho-II&nbsp;catalog (every star in the sky brighter than 12th mag) or the Hipparcos&nbsp;catalog. (several hundred thousand stars with distances)</li>
+<li>Space Telescope (Gamma Rays): Fermi gamma-ray telescope -- it's got "fresh data smell" -- download photon lists from yesterday!&nbsp;&nbsp;<a href="http://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/WeeklyFiles.cgi">http://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/WeeklyFiles.cgi</a> and&nbsp;<a href="http://fermi.gsfc.nasa.gov/ssc/data/access/">http://fermi.gsfc.nasa.gov/ssc/data/access/</a> </li>
+<li>Comets: 1,300 images of Comet Holmes, with locations on the sky&nbsp; -- see project list for details about this one, or <a href="http://www.astro.princeton.edu/~dstn/temp/scihackday/">http://www.astro.princeton.edu/~dstn/temp/scihackday/</a> , you want the files starting with "holmes".</li>
+<li>Stars: Tycho-2 catalog -- 2.5 million brightest stars --&nbsp;<a href="http://www.astro.princeton.edu/~dstn/temp/scihackday/tycho2-cut.fits">http://www.astro.princeton.edu/~dstn/temp/scihackday/tycho2-cut.fits</a> </li>
+<li>USNO-B all-sky survey images, NGC/IC galaxy catalogs, constellations, and bright named stars -- in&nbsp;<a href="http://astrometry.net/downloads">http://astrometry.net/downloads</a> code package: util/ngc2000.py , util/brightstars.c, util/constellations.c, util/usnob_get_images.py&nbsp; or browse at&nbsp;<a href="http://trac.astrometry.net/browser/trunk/src/astrometry/util">http://trac.astrometry.net/browser/trunk/src/astrometry/util</a></li>
+<li>NASA:&nbsp;<a href="http://opensource.arc.nasa.gov/">NASA Ames Open Source Projects</a></li>
+<li>NASA:&nbsp;<a href="http://opensource.gsfc.nasa.gov/">NASA Goddard Open Source Projects</a>&nbsp;</li>
+<li><span style="font-family:'Lucida Sans', 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, sans-serif;">Aeronautics: Discovery in Aeronautics Systems Health (DASHlink)</span>&nbsp;<a href="https://c3.nasa.gov/dashlink/resources/?sort=-created&amp;type=28">https://c3.nasa.gov/dashlink/resources/?sort=-created&amp;type=28</a>&nbsp;</li>
+<li>Space Telescope (Radar): <a href="http://www.array.ca/nest/tiki-index.php">ESA SAR Toolbox</a>&nbsp;</li>
+</ul><p>&nbsp;</p>
+<h3 id="bio">Biology + Life Sciences</h3>
+<ul><li>Wildlife:&nbsp;<a href="http://www.bbc.co.uk/wildlifefinder">BBC Wildlife Finder</a> the resources are available as RDF/XML (eitehr add .rdf to the end of the URL or via conneg). details of the ontology here: <a href="http://purl.org/ontology/wo/">http://purl.org/ontology/wo/</a> and some background here: <a href="http://www.slideshare.net/derivadow/apis-and-apis-a-wildlife-ontology">http://www.slideshare.net/derivadow/apis-and-apis-a-wildlife-ontology</a>.</li>
+<li><a href="http://www.searchnbn.net/">NBN Gateway</a> is used to explore UK biodiversity data. It contains over 50 million species records covering England, Scotland, Wales and Northern Ireland. Data are available via the website, <a href="http://www.searchnbn.net/library/webservices/wsIndex.jsp">web services</a> or as tab delimited files. Support is provided via the <a href="http://forums.nbn.org.uk/#idx2">community forum</a>.</li>
+<li><a href="http://bio2rdf.org/">Bio2RDF</a> has lots of biological information as linked data (RDF).</li>
+<li>U.S. biology datasets (via <a href="http://catalog.data.gov/dataset?q=biology">Data.gov</a>) </li>
+<li>Birds:&nbsp;<a href="http://www.avianknowledge.net/content/datasets">Avian Knowledge Network</a>. Bird monitoring data resources represent arguably the most comprehensive time-series environmental data in existence. These data, gathered by hundreds of independent projects, have collected an estimated 60 million records over the past 100 years. Lots of range/distribution data. <a href="http://www.avianknowledge.net/content/download">Download prepackaged data sets or query the database</a>.</li>
+<li>Birds:&nbsp;<a href="http://www.worldbirdnames.org/">International Ornithological Congress world bird checklist</a>. Download in Excel, CSV or XML.</li>
+<li>Fish:&nbsp;<a href="http://200.144.189.73/portal/datasets/resource/45">Fishbase</a>. Checklist of fish available as CSV, Tab-delimited, or Excel.</li>
+<li><a href="http://www.iucnredlist.org/technical-documents/spatial-data">IUCN Redlist of Threatened Species</a>: contains assessments for 49,000 species of which spatial data exists for about 25,000 species. ESRI shapefiles.</li>
+<li>Amphibians, Birds, Mammals:&nbsp;<a href="http://sedac.ciesin.columbia.edu/species/">Species&nbsp;distribution&nbsp;grids</a>&nbsp;from SEDAC.&nbsp;Data are available for global amphibian distributions, and for birds and mammals in the Americas. .BIL images.</li>
+<li>Birds:&nbsp;<a href="http://www.rspb.org.uk/birdwatch/results/">RSPB garden birdwatch 2010 results</a>: Results from a survey to count the number of birds in your garden. Localised to the United Kingdom. Downloadable as spreadsheets.</li>
+<li><a href="http://www.snpedia.com/index.php/23andMe">Open 23AndMe raw genotyping datasets</a>: SNPedia has links to a number of data sets that people have decided to share. We can probably pool some more from amongst ourselves. Is there a larger repository of open data sets somewhere</li>
+<li><a href="http://www.1000genomes.org/data">The 1000 Genomes Project</a>:&nbsp; The 1000 Genomes Project is the first project to sequence the genomes of  a large number of people, to provide a comprehensive resource on human  genetic variation. As with other major human genome reference projects, data from the 1000  Genomes Project will be made available quickly to the worldwide  scientific community through freely accessible public databases. The goal of the 1000 Genomes Project is to find most genetic variants  that have frequencies of at least 1% in the populations studied.</li>
+<li><a href="http://www.biochemweb.org/databases.shtml">BioChemWeb</a>: List of online databases in Biochemistry, Moleculer Biology and Cell Biology&nbsp;</li>
+<li id="genome"><span style="text-decoration:underline;">Genome Interpretation/Annotation Tools:</span></li>
+<ul><li>Interpretome (<a href="http://interpretome.com/" target="_blank">http://interpretome.com</a>)</li>
+<li>Promethease (<a href="http://www.snpedia.com/index.php/Promethease" target="_blank">http://www.snpedia.com/index.php/Promethease</a>)</li>
+<li>Trait-o-Matic (<a href="http://snp.med.harvard.edu/" target="_blank">http://snp.med.harvard.edu/</a>)</li>
+<li>GET Evidence (<a href="http://evidence.personalgenomes.org/about" target="_blank">http://evidence.personalgenomes.org/about</a>)</li>
+<li>SNPTips (<a href="http://snptips.5amsolutions.com/" target="_blank">http://snptips.5amsolutions.com/</a>)</li>
+<li>DIYGenomics mobile app (<a href="http://www.diygenomics.org/mobile.php" target="_blank">http://www.diygenomics.org/mobile.php</a>)</li>
+</ul><li><span style="text-decoration:underline;">Trait Association Databases:</span></li>
+<ul><li>NHGRI GWAS Catalog (<a href="http://www.genome.gov/gwastudies/" target="_blank">www.genome.gov/gwastudies/</a>)</li>
+<li>SNPedia (<a href="http://www.snpedia.com/" target="_blank">http://www.snpedia.com</a>)</li>
+<li>The Pharmacogenomics Knowledge Base (<a href="http://www.pharmgkb.org/" target="_blank">www.pharmgkb.org</a>)<span style="text-decoration:underline;">&nbsp;</span></li>
+</ul><li><span style="text-decoration:underline;">Population/Ancestry Databases:</span></li>
+<ul><li>HapMap (<a href="http://www.hapmap.org/" target="_blank">www.hapmap.org</a>)</li>
+<ul><li>allele frequencies: ftp://ftp.ncbi.nlm.nih.gov/hapmap/frequencies/2010-08_phaseII+III/&nbsp;</li>
+</ul><li>Human Genome Diversity Project (<a href="http://hagsc.org/hgdp/files.html" target="_blank">http://hagsc.org/hgdp/files.html</a>)</li>
+<li>DODECAD Ancestry Project (<a href="http://dodecad.blogspot.com/" target="_blank">http://dodecad.blogspot.com/</a>)</li>
+<li>1,000 Genomes Project (<a href="http://www.1000genomes.org/" target="_blank">www.1000genomes.org</a>)<span style="text-decoration:underline;">&nbsp;</span></li>
+</ul><li><span style="text-decoration:underline;">Blogs/Communities:</span></li>
+<ul><li>OpenSNP (<a href="http://opensnp.org/" target="_blank">opensnp.org</a>)</li>
+<li>GenomesUnzipped (<a href="http://www.genomesunzipped.org/" target="_blank">http://www.genomesunzipped.org</a>)</li>
+<li>23andYou (<a href="http://23andyou.com/" target="_blank">23andyou.com</a>)<span style="text-decoration:underline;">&nbsp;</span></li>
+</ul><li><span style="text-decoration:underline;">Miscellaneous:</span></li>
+<ul><li>DrugBank (<a href="http://www.drugbank.ca/" target="_blank">http://www.drugbank.ca/</a>)</li>
+<li>PolyPhen (<a href="http://genetics.bwh.harvard.edu/pph/" target="_blank">genetics.bwh.harvard.edu/pph/</a>)</li>
+<li>KEGG (<a href="http://www.genome.jp/kegg/" target="_blank">www.genome.jp/kegg/</a>) </li>
+<li><a href="http://www.broadinstitute.org/scientific-community/science/projects/mammals-models/29-mammals-project-supplementary-info">29 mammals project</a> - evolutionary conserved or positive selected regions</li>
+</ul></ul><p>&nbsp;</p>
+<h3>Chemistry</h3>
+<ul><li><a href="/w/page/ChemSpider">ChemSpider</a>: structures and other compound information (in case we need it)</li>
+<li><a href="http://catalog.data.gov/dataset?q=chemistry">U.S. chemistry</a> datasets (via <a href="http://data.gov" search_id="undefined">Data.gov</a>) </li>
+</ul><p>&nbsp;</p>
+<h3>Computer Science + Web Data</h3>
+<ul><li><a href="http://acm.rkbexplorer.com/">ACM Repository</a></li>
+<li><a href="http://ieee.rkbexplorer.com/">IEEE Repository</a></li>
+<li><a href="http://www.mpi-inf.mpg.de/yago-naga/yago/">Yago</a>&nbsp;&nbsp;</li>
+<li><a href="http://www.umbel.org/technical_documentation.html#vocabulary">UMBEL</a>&nbsp;</li>
+<li><a href="http://dbpedia.org/">dbpedia</a>&nbsp;</li>
+<li><a href="http://catalog.data.gov/dataset?q=computer+science&amp;sort=score+desc%2C+name+asc&amp;ext_location=&amp;ext_bbox=&amp;ext_prev_extent=-139.21874999999997%2C8.754794702435618%2C-61.87499999999999%2C61.77312286453146">U.S. computer science</a> datasets (via <a href="http://data.gov">Data.gov</a>)</li>
+</ul><p>&nbsp;</p>
+<h3>Earth Sciences, Climate &amp; Environment</h3>
+<ul><li><a href="http://data.nasa.gov">Data.nasa.gov</a> - directory of NASA-related datasets&nbsp;&nbsp;</li>
+<li><a href="http://worldwind.arc.nasa.gov/java/">NASA World Wind</a></li>
+<li><a href="http://catalog.data.gov/dataset?q=earth+science">U.S. Earth science</a> datasets (via <a href="http://data.gov">Data.gov</a>)</li>
+<li><a href="http://www.realclimate.org/index.php/data-sources/">RealClimate.org List of Data Sources</a> on climate change - RealClimate is a blog run by climate scientists to respond to claims by "deniers". They also have a <a href="http://www.realclimate.org/wiki/index.php?title=RC_Wiki">wiki</a> which lists the names and details of pushers of "climate-related nonsense".&nbsp;</li>
+<li><a href="http://tin.er.usgs.gov/mrds/">Mineral Resources Data System (MRDS)</a>. MRDS describes metallic and nonmetallic mineral resources throughout the world. Included are deposit name, location, commodity, deposit description, geologic characteristics, production, reserves, resources, and references. It includes the original MRDS and MAS/MILS data.&nbsp;</li>
+<li><a href="http://www.onegeology.org/">OneGeology</a>. Global geological maps.</li>
+<li><a href="http://discover.amee.com">AMEEdiscover</a>: database of global emissions standards and methodologies, integrated with AMEE's API.&nbsp;</li>
+<li><a href="http://woudc.org/data_e.html" search_id="undefined">World Ozone and Ultraviolet Radiation Data Centre</a>: ten years of Swiss ozonesonde data. (direct FTP link&nbsp;<a href="ftp://ftp.tor.ec.gc.ca/pub/woudc/Archive-NewFormat/OzoneSonde_1.0_1/STN156/ECC/">ftp://ftp.tor.ec.gc.ca/pub/woudc/Archive-NewFormat/OzoneSonde_1.0_1/STN156/ECC/</a>&nbsp;). Rights notice: "The data contained within the WOUDC Data Archive are free and unrestricted.&nbsp;For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the data providers or owners whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the data providers or owners and to the data centre when these data are used within a publication."</li>
+</ul><p>&nbsp;</p>
+<h3>Geography</h3>
+<ul><li><a href="http://www4.wiwiss.fu-berlin.de/factbook/">CIA World Factbook</a></li>
+<li><a href="http://www4.wiwiss.fu-berlin.de/eurostat/">Eurostat</a></li>
+<li><a href="http://www.rdfabout.com/demo/census/">US Census Data</a></li>
+<li><a href="http://catalog.data.gov/dataset?metadata_type=geospatial&amp;_metadata_type_limit=0" search_id="undefined">U.S. geospatial</a> datasets (via <a href="http://data.gov">Data.gov</a>) </li>
+<li><a href="http://www.geonames.org/">Geonames</a>&nbsp;</li>
+<li><a href="http://www.mpi-inf.mpg.de/yago-naga/yago/">Yago</a>&nbsp;&nbsp;</li>
+<li>Transport for London data, see<a href="http://www.tfl.gov.uk/corporate/media/newscentre/15771.aspx">http://www.tfl.gov.uk/corporate/media/newscentre/15771.aspx</a>&nbsp;and&nbsp;<a href="http://www.tfl.gov.uk/tfl/businessandpartners/syndication/assets/syndication-developer-guidelines.pdf">http://www.tfl.gov.uk/tfl/businessandpartners/syndication/assets/syndication-developer-guidelines.pdf</a>&nbsp;&nbsp;&nbsp;</li>
+<li><a href="http://www.data.gov.bc.ca/dbc/index.page?">BC OpenData Catalogue</a>&nbsp;- all provincial datasets for British Columbia (education, natural resources, health,&nbsp;</li>
+</ul><p>&nbsp;</p>
+<h3>Medicine and Health Sciences</h3>
+<ul><li><a href="http://www4.wiwiss.fu-berlin.de/dailymed/">Dailymed Digest</a></li>
+<li><a href="http://linkedct.org/index.html">LinkedCT</a> - clinical trial data as Linked Data</li>
+<li><a href="http://www.healthdata.gov/">U.S. health</a> datasets (via <a href="http://data.gov">Data.gov</a>) </li>
+<li><span style="color:#222222;font-family:arial, sans-serif;"><a href="http://report.nih.gov/" target="_blank">http://report.nih.gov/</a></span></li>
+<li><span style="color:#222222;font-family:arial, sans-serif;"><a href="http://report.nih.gov/" target="_blank"></a><a href="http://fundedresearch.cancer.gov/" target="_blank">http://fundedresearch.cancer.gov/</a></span>&nbsp;</li>
+<li><span style="color:#222222;font-family:arial, sans-serif;"><a href="http://www.data.gov/communities/node/81/other_datasites" target="_blank">http://www.data.gov/communities/node/81/other_datasites</a></span>&nbsp;</li>
+<li>Diseases:&nbsp;<a href="http://www.ncbi.nlm.nih.gov/Omim/omimfaq.html#download">OMIM</a>&nbsp;is a (messy, text file based) database of Mendelian human diseases (diseases caused by mutations in a single gene) including descriptions, the gene that caused them etc.&nbsp;</li>
+</ul><p>&nbsp;</p>
+<h3>Neuroscience<span style="font-family:'Segoe UI', 'Lucida Grande', Arial;font-size:13px;line-height:19px;font-weight:normal;">&nbsp;</span></h3>
+<ul><li><a href="http://openfmri.org">OpenfMRI.org</a>:&nbsp;OpenfMRI.org is a project dedicated to the free and open sharing of functional magnetic resonance imaging (fMRI) datasets, including raw data.</li>
+<li>1000 Functional Connectomes Project and International Neuroimaging Data-sharing Initiative (<a search_id="undefined">http://fcon_1000.projects.nitrc.org/</a>&nbsp;&lt;-- for some reason the wiki doesn't like this URL, I recommend you copy and paste it): neuroimaging scans from 1000s of subjects. Includes resting state functional magnetic resonance imaging (fMRI) data, structural MRIs, and diffusion tensor imaging (DTI). While the FCP dataset is mostly from healthy controls, and includes very little phenotypic data, the INDI dataset is well phenotyped and includes data for several patient populations such as ADHD,&nbsp;epilepsy&nbsp;and cocaine addiction.&nbsp;</li>
+<li><a href="http://neurobureau.projects.nitrc.org/ADHD200/Introduction.html" search_id="undefined">ADHD-200 preprocessed data</a>: preprocessed resting state fMRI and structural MRI data from ~ 700 typically developing children and ~ 400 children with ADHD released through INDI. The goal of this project is to release data in a form that is more accessible to those without functional neuroimaging expertise.&nbsp;</li>
+<li><a href="http://www.nitrc.org/projects/multimodal/">Multi-Modal MRI Reproducibility Resource</a>: scan-rescan imaging sessions from 21 healthy volunteers (no history of neurological disease). Imaging modalities include MPRAGE, FLAIR, DTI, resting state fMRI, B0 and B1 field maps, ASL, VASO, quantitative T1 mapping, quantitative T2 mapping, and magnetization transfer imaging.&nbsp;This is intended to be a resource for statisticians and imaging scientists to be able to quantify the reproducibility of their imaging methods using data available from a generic "1 hour" session at 3T.</li>
+<li><a href="http://brainmap.org">brainmap.org</a>:&nbsp;BrainMap is an online database of published functional neuroimaging (fMRI and PET) experiments with coordinate-based (x,y,z) activation locations in Talairach space. The goal of BrainMap is to provide a vehicle to share methods and results of studies in specific research domains, such as language, memory, attention, emotion, and perception. BrainMap can also be used to perform meta-analyses of similar research studies.</li>
+<li><a href="http://openconnectomeproject.org/" search_id="undefined">Open Connectome Project</a>: "Collectively reverse engineering the brain one synapse at a time." Transmission electron microscopy images of mouse visual cortex.</li>
+<li><a href="http://www.brain-map.org/" search_id="undefined">Allen Brain Atlas</a>:&nbsp;A growing collection of online public resources integrating extensive gene expression and neuroanatomical data, complete with a novel suite of search and viewing tools. &nbsp;&nbsp;</li>
+</ul><p>&nbsp;</p>
+<h3>Publications</h3>
+<ul><li><a href="http://bit.ly/qLOLDD">PLoS publication datasets</a>&nbsp;- 3700+ datasets from across the sciences, free to experiment with and hack</li>
+<li><a href="http://periodicals.dataincubator.org/.html">Linked data on research publications&nbsp;&nbsp;</a>- Journal metadata from Crossref, Springer, Highwire, and the National Library of Medicine, available as Linked Data in RDF/XML/JSON/Turtle with SPARQL endpoint.&nbsp;</li>
+<li><a href="http://libris.kb.se/">LIBRIS</a>&nbsp;- the Swedish national library as linked data and SPARQL (useful for bibliometric sampling)&nbsp;</li>
+<li>William Gunn's&nbsp;<a href="https://docs.google.com/spreadsheet/ccc?key=0As6uT99lJ4mHdGN0NG1YMHc0RDNWcmdpV25tVmxTRWc&amp;authkey=COmZpLwB&amp;hl=en_US">list of datasets, APIs, and tools</a>&nbsp;(Google doc).&nbsp;&nbsp;</li>
+<li>World Bank scientific indicators, e.g.&nbsp;<a href="http://data.worldbank.org/indicator/IP.JRN.ARTC.SC">http://data.worldbank.org/indicator/IP.JRN.ARTC.SC</a>&nbsp;&nbsp;&nbsp;</li>
+</ul><p>&nbsp;</p>
+<p><strong>Other lists</strong></p>
+<ul><li><a href="http://apps4africa.org/data.php">Data sets 4 Africa</a>&nbsp;</li>
+<li><a href="http://data.brighterplanet.com/">Bright Planet</a> </li>
+</ul><p>&nbsp;</p>
+    </div>
+  
+  </div>
+
+  </div>
+
+  <div id="wikiedit" style="display:none;">
+        	<div id="editor-panel" class="box">
+  <h1 id="editTitle" class="pagetitle ellipses">Datasets</h1>
+      
+    <table style="table-layout:fixed; width:100%" id="edit-panel">
+      <col/>
+      <col style="width:240px"/>
+      <tr><td>
+      <form method="post" action="/Datasets" id="editwikipage"><input type="hidden" name="process" value="edit_page" /><div id="editframe"></div></form>
+      </td>
+      <td>
+      <div id="editor-column" style="margin-left:12px;" class="thingbar">
+			  <div id="edit-tools">
+					     <h4>Page Tools</h4>
+                    <div class="editor-module">
+      <div class="header">
+        <h3>Insert links</h3>
+        <p class="aux">Insert links to other pages or uploaded files.</p>
+      </div>
+      <div class="editor-module-tabs">
+        <a href="#" class="active" id="linkselectab-pages">Pages</a>
+        <a href="#" id="linkselectab-images">Images and files</a>
+      </div>
+  
+      <div class="content">
+          <div style="display:none" id="thingbar-pages">
+            <div style="border-bottom:1px dotted #bbb; font-size: 10px; padding-bottom: 0.5em; margin-bottom: 0.5em;"><a href="javascript:void(0);" onmousedown="insert_newlink_into_editor(); return false">Insert a link to a new page</a></div>
+            <ol id="thingbarpages"><li><div align="center"><span id="thingbarLoadIcon"></span> Loading...</div></li></ol>
+          </div>
+          <div style="display:none;" id="thingbar-images">
+                            <ol id="thingbarfiles"> <li id="thingbar-images-noimages">No images or files uploaded yet.</li>
+</ol>
+			        <div style="border-top:1px dotted #bbb; font-size: 10px; padding-top: 0.5em; margin-top: 0.5em;"><a href="javascript:void(0);" id="thingbar-url-link">Insert image from URL</a></div>
+          </div>
+	    </div>
+    </div>
+			  </div>
+        <p id="editor-tip" class="aux">
+            <strong>Tip:</strong> To turn text into a link, highlight the text, then click on a page or file from the list above.
+        </p>
+		  </div>
+
+	</td>
+</tr>
+</table> 
+</div>
+  </div>
+
+  <style> div#comments .comment { margin-bottom:5px; } div#comments .content p { margin-bottom:5px; }  </style><div id="comments" class="box">
+<div class="comments-header">
+  <div class="corner4px top"><div class="right"></div><div class="left"></div></div>
+  <h3>
+    Comments (<span id="comments-count">1</span>)
+      </h3>
+  <a name="comments"></a>
+  <div class="corner4px bot"><div class="right"></div><div class="left"></div></div>
+</div>
+      <div class="comment" id="commentnum1269950971"><a name="comment1269950971"></a><a name="cr1269950971"></a>
+    <div class="header">
+      <div class="comment-picture">
+        <img src="http://files.pbworks.com/userimage/2c247848eff2cd2b46f5b90cfcadebbd081daf8d/yes/48x48/1248254077/" alt=""/>
+      </div>
+
+      <h4><a href="javascript:alert('Please log in to see more details about this user.');" class=" usercard_trigger">Bru</a> said</h4>
+      <p>at 4:09 am on Mar 30, 2010<br/>
+      			      </p>
+    </div>
+    <div class="content">
+      <p>Anybody knows if CERN is going to release some of the data from the LHC? that would be awesome, and bleeding edge (writing this comment while following the webcast for the first beam <a href="http://webcast.cern.ch/lhcfirstphysics/" rel="nofollow">http://webcast.cern.ch/lhcfirstphysics/</a> )</p>
+    </div>
+  </div>
+
+  <p id="comments-nopermission">You don't have permission to comment on this page.</p>
+</div>
+</div>
+
+  <div id="page-bottom-toolbar">
+  <div class="content box">
+    <a href="/w/page/24500475/Datasets?mode=embedded" rel="nofollow" class="iconbutton print" id="print_link">Printable version</a>
+  </div>
+</div>
+
+<!--[if IE]>
+  <style type="text/css" media="screen">
+    div#sendalink_to_container div.accontainer { left: 122px; margin-top: 20px; }
+    input#sendalink_to { margin-bottom: 7px; }
+    div#sendalink_to_container div#header, div#sendalink_to_container ul, div#sendalink_to_container div#footer { display: inline-block; }
+  </style>
+<![endif]-->
+                      </td>
+          <td id="page-col-3" width="4">&nbsp;</td>
+        </tr>
+      </table>
+      <div id="page-footer">
+        <div class="header">
+          <div class="rt"></div>
+          <div class="lt"></div>
+        </div>
+                <div class="footer">
+          <div class="lt"></div>
+          <div class="rt"></div>
+        </div>
+      </div>
+    </div><!--- /#page -->
+
+  </td>
+  <td id="side-content">
+      <div id="sidebar">
+    <div id="side-toolbar" class="sidebox">
+      <ul id="main-tools" class="empty">
+                              </ul>
+      
+    </div><!-- /#side-toolbar -->
+      <div id="sidebarModules">
+                        <div id="module__login" class="wikicontext-module sidebox" style="position: relative; z-index: 0;">
+      <div class="header"><h3>Join this workspace</h3><a class="close togglemodule" href="#"></a></div>
+      <div class="content">
+        <div class="inner-content">
+
+                     <div class="top">
+                          To join this workspace,
+              <a href="https://my.pbworks.com/?p=create&return=http%3A%2F%2Fsciencehackday.pbworks.com%2Fw%2Fsession%2Fjoin%3Fpage_name%3D%26ed%3D1">create an account</a>.
+                          </div>
+            <p>Already have an account? <a href="http://sciencehackday.pbworks.com/w/session/login">Log in</a>!</p>
+                              </div>
+      </div>
+      <div class="footer"></div>
+      </div>
+    
+
+      
+              <div class="wikicontext-module sidebox recentactivity" id="module-recentactivity">
+  <div class="header"><h3 id="module-title-recentactivity">Recent Activity</h3><a href="javascript:void(0);" class="close togglemodule">&nbsp;</a></div>  <div id="new-recent-activity" style="display: none;">
+    <a id="new-recent-activity-refresh" href="#">
+      Show <span id="new-recent-activity-count">0</span> new item<span id="new-recent-activity-plural">s</span>
+    </a>
+  </div>
+  <div class="content" style="height: 364px;">
+    <div class="loading" id="recentactivity_loading_message">Loading&hellip;</div>
+  </div>
+<div class="footer resizeable">&nbsp;</div>
+</div>            </div>
+    </div>
+  </td>
+  </tr>
+
+</table>
+</div>
+    <!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-16CGFkiSpdTEU";quantserve();</script>
+<noscript><img src="http://pixel.quantserve.com/pixel/p-16CGFkiSpdTEU.gif" style="display: none" height="1" width="1" alt="Quantcast"/></noscript>
+<!-- End Quantcast tag -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2694787-12");
+pageTracker._setDomainName(".pbworks.com");
+if (document.cookie.match(/hm=/)) {
+  pageTracker._setVar('authenticated');
+}
+pageTracker._setAllowHash(false);
+pageTracker._trackPageview();
+</script>
+</body>
+</html><!--  -->
