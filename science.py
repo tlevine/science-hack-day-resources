@@ -24,7 +24,8 @@ def main():
     intralinks = filter(lambda href: href.startswith('/'), hrefs)
 
     for href in intralinks:
-        event(href)
+        if not os.path.exists(DIR + href):
+            event(href)
 
 def event(href):
     r = requests.get(BASEURL + href)
