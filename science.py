@@ -4,15 +4,17 @@ import requests
 from lxml.html import fromstring
 
 DIR = 'download'
+BASEURL = 'http://sciencehackday.pbworks.com'
 
 def mkdir(name):
     try:
         os.makedirs(name)
+        print 'mkdir', name
     except OSError:
         pass
 
 def main():
-    r = requests.get('http://sciencehackday.pbworks.com')
+    r = requests.get(BASEURL)
     html = fromstring(r.text)
 
     mkdir(DIR)
@@ -25,4 +27,14 @@ def main():
         event(href)
 
 def event(href):
-    pass
+    r = requests.get(BASEURL + href)
+    html = fromstring(r.text)
+
+    print href
+    print r.status_code
+
+    mkdir(DIR + os.path.split(href)[0])
+    open(DIR + href, 'w').write(r.text.encode('utf-8'))
+
+if __name__ == '__main__':
+    main()
