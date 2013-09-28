@@ -5,3 +5,8 @@ into one [book about citizen science](https://en.wikibooks.org/wiki/Citizen_Scie
 Run this to return links in mediawiki syntax.
 
     ./science.py
+
+Separate Twitter.
+
+    ./science.py | grep twitter
+    ./science.py | grep -v twitter
