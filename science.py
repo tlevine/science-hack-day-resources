@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 import os
 import requests
 from lxml.html import fromstring
@@ -38,6 +38,12 @@ def download_event(href):
 
 def print_event_text(href):
     html = fromstring(open(DIR + href).read())
+    anchors = html.xpath('id("wikipage")/descendant::a')
+    for a in anchors:
+        # print mediawiki syntax
+        href = a.xpath('@href')[0]
+        text = a.text_content()
+        print '* [%s %s]' %  (href, text)
 
 if __name__ == '__main__':
     main()
