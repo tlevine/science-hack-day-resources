@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import requests
-from lxml.html import fromstring
+from lxml.html import fromstring, tostring
 
 DIR = 'download'
 BASEURL = 'http://sciencehackday.pbworks.com'
@@ -41,9 +41,12 @@ def print_event_text(href):
     anchors = html.xpath('id("wikipage")/descendant::a')
     for a in anchors:
         # print mediawiki syntax
-        href = a.xpath('@href')[0]
+        hrefs = a.xpath('@href')
         text = a.text_content()
-        print '* [%s %s]' %  (href, text)
+        if len(hrefs) == 0:
+            print ' *' + text
+        else:
+            print '* [%s %s]' %  (hrefs[0], text)
 
 if __name__ == '__main__':
     main()
