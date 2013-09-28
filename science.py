@@ -9,7 +9,6 @@ BASEURL = 'http://sciencehackday.pbworks.com'
 def mkdir(name):
     try:
         os.makedirs(name)
-        print 'mkdir', name
     except OSError:
         pass
 
@@ -25,17 +24,20 @@ def main():
 
     for href in intralinks:
         if not os.path.exists(DIR + href):
-            event(href)
+            download_event(href)
+        print_event_text(href)
 
-def event(href):
+def download_event(href):
     r = requests.get(BASEURL + href)
-    html = fromstring(r.text)
 
     print href
     print r.status_code
 
     mkdir(DIR + os.path.split(href)[0])
     open(DIR + href, 'w').write(r.text.encode('utf-8'))
+
+def print_event_text(href):
+    html = fromstring(open(DIR + href).read())
 
 if __name__ == '__main__':
     main()
