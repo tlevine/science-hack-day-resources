@@ -44,9 +44,9 @@ def print_event_text(href):
         hrefs = a.xpath('@href')
         text = a.text_content()
         if len(hrefs) == 0:
-            print ' *' + text
+            print ' * %s' % text.encode('utf-8')
         else:
-            print '* [%s %s]' %  (hrefs[0], text)
+            print '* [%s %s]' %  (hrefs[0].encode('utf-8'), text.encode('utf-8'))
 
 if __name__ == '__main__':
     main()
