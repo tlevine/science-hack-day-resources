@@ -8,5 +8,5 @@ Run this to return links in mediawiki syntax.
 
 Separate Twitter.
 
-    ./science.py | grep twitter
+    ./science.py | grep twitter | sed 's+http://+https://+' | sort -u
     ./science.py | grep -v twitter
